@@ -1,0 +1,35 @@
+{
+    "name": "on/laravel-client",
+    "description": "Laravel client package for ON Platform integration",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "on-platform", "api-client", "multi-tenancy"],
+    "authors": [
+        {
+            "name": "ON Platform",
+            "email": "dev@on-platform.ao"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ON\\LaravelClient\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ON\\LaravelClient\\ONServiceProvider"
+            ],
+            "aliases": {
+                "ON": "ON\\LaravelClient\\Facades\\ON"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
