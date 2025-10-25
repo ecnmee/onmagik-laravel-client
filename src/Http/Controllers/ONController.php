@@ -1,10 +1,10 @@
 <?php
 
-namespace ON\LaravelClient\Http\Controllers;
+namespace OnMagik\LaravelClient\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
-use ON\LaravelClient\Services\ONClient;
+use OnMagik\LaravelClient\Services\ONClient;
 
 class ONController extends Controller
 {

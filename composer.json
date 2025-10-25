@@ -1,13 +1,13 @@
 {
-    "name": "on/laravel-client",
-    "description": "Laravel client package for ON Platform integration",
+    "name": "onmagik/laravel-client",
+    "description": "Laravel client package for ON Platform integration - Magik powered",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "on-platform", "api-client", "multi-tenancy"],
+    "keywords": ["laravel", "on-platform", "on-magik", "api-client", "multi-tenancy"],
     "authors": [
         {
-            "name": "ON Platform",
-            "email": "dev@on-platform.ao"
+            "name": "ON Magik",
+            "email": "dev@onmagik.ao"
         }
     ],
     "require": {
@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "ON\\LaravelClient\\": "src/"
+            "OnMagik\\LaravelClient\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ON\\LaravelClient\\ONServiceProvider"
+                "OnMagik\\LaravelClient\\ONServiceProvider"
             ],
             "aliases": {
-                "ON": "ON\\LaravelClient\\Facades\\ON"
+                "ON": "OnMagik\\LaravelClient\\Facades\\ON"
             }
         }
     },

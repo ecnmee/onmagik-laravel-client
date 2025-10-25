@@ -1,6 +1,6 @@
 <?php
 
-namespace ON\LaravelClient\Services;
+namespace OnMagik\LaravelClient\Services;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;

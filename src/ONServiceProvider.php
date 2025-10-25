@@ -1,9 +1,9 @@
 <?php
 
-namespace ON\LaravelClient;
+namespace OnMagik\LaravelClient;
 
 use Illuminate\Support\ServiceProvider;
-use ON\LaravelClient\Services\ONClient;
+use OnMagik\LaravelClient\Services\ONClient;
 
 class ONServiceProvider extends ServiceProvider
 {
